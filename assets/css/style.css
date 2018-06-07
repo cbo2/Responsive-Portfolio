@@ -1,0 +1,169 @@
+* {
+    /* border: 2px solid black; */
+    color: #777777;
+    background-color: #ffffff;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.nameAndLinksContainer {
+    width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.myName {
+    width: 200px;
+    height: 30px;
+    float: left;
+    /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+    /* font-family: sans-serif; */
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    padding: 20px 10px 10px 10px;
+    position: relative;
+    background-color: #4aaaa5;
+    color: white;
+    margin-left: auto;
+}
+
+.links {
+    text-align: right;
+    margin-right: auto;
+    width: 200px;
+    height: 30px;
+    float: right;
+    padding-top: 30px;
+    position: relative;
+}
+
+.bodyContainer {
+    clear: both;
+    height: 500px;
+    background-image: url("../images/concrete_seamless.png");
+    overflow: auto;
+}
+
+.innerContainer {
+    width: 850px;
+    margin-right: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    /* this one is a different way to do it --> margin: 0px auto 0px; */
+    top: 20px;
+    position: relative;
+    padding-top: 10px;
+    border: 2px solid #dddddd;
+    /* overflow: auto; */
+}
+
+.innerContainer:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+.innerContainer hr {
+    /* display: block; */
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-style: inset;
+    border-width: 1px;
+    color: #dddddd;
+}
+
+.innerContainer h2 {
+    margin-left: 10px;
+    color: #4aaaa5;
+}
+.innerContainer img {
+    position: relative;
+    width: 150px;
+    border-radius: 5%;
+    float: left;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.innerContainer p {
+    padding-left: 20px;
+    /* overflow: auto; */
+    /* float: right; */
+}
+
+.footer {
+    border-style: solid;
+    border-color: #4aaaa5;
+    border-width: 10px 0px 0px 0px;
+    text-align: center;
+    padding-top: 20px;
+    background-color: #666666;
+    color: white;
+}
+
+.pic {
+    width: 200px;
+    /* height: 200px; */
+    margin-left: 40px;
+    margin-top: 20px;
+    float: left;
+}
+
+.wrapper {
+    width: 980px;
+}
+
+@media screen and (min-width: 981px) {
+    .wrapper {
+        width: 980px;
+    }    
+    .nameAndLinksContainer {
+        width: 850px;
+    }
+    .innerContainer {
+        width: 850px;
+    }    
+}
+
+/* laptop */
+@media screen and (min-width: 787px) and (max-width: 980px) {
+    .wrapper {
+        width: 700px;
+    }    
+    .nameAndLinksContainer {
+        width: 600px;
+    }
+    .innerContainer {
+        width: 600px;
+    }
+}
+/* tablet  */
+@media screen and (min-width: 641px) and (max-width: 786px) {
+    .wrapper {
+        width: 640px;
+    }    
+    .nameAndLinksContainer {
+        width: 500px;
+    }
+    .innerContainer {
+        width: 500px;
+    }
+}
+/* phone */
+@media screen and (max-width: 640px) {
+    .wrapper {
+        width: 500px;
+    }    
+    .nameAndLinksContainer {
+        width: 400px;
+    }
+    .innerContainer {
+        width: 400px;
+    }    
+}
