@@ -191,6 +191,7 @@ input[type=submit]:hover {
     }    
     .nameAndLinksContainer {
         width: 400px;
+        position: static;
     }
     .innerContainer {
         width: 400px;

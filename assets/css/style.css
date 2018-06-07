@@ -134,13 +134,13 @@
 /* laptop */
 @media screen and (min-width: 787px) and (max-width: 980px) {
     .wrapper {
-        width: 700px;
+        width: 780px;
     }    
     .nameAndLinksContainer {
-        width: 600px;
+        width: 650px;
     }
     .innerContainer {
-        width: 600px;
+        width: 650px;
     }
 }
 /* tablet  */
@@ -162,6 +162,7 @@
     }    
     .nameAndLinksContainer {
         width: 400px;
+        position: static;
     }
     .innerContainer {
         width: 400px;

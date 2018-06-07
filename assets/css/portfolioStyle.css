@@ -153,10 +153,10 @@
         width: 700px;
     }    
     .nameAndLinksContainer {
-        width: 600px;
+        width: 450px;
     }
     .innerContainer {
-        width: 600px;
+        width: 450px;
     }
 }
 /* tablet  */
@@ -165,10 +165,10 @@
         width: 640px;
     }    
     .nameAndLinksContainer {
-        width: 500px;
+        width: 380px;
     }
     .innerContainer {
-        width: 500px;
+        width: 380px;
     }
 }
 /* phone */
@@ -177,9 +177,10 @@
         width: 500px;
     }    
     .nameAndLinksContainer {
-        width: 400px;
+        width: 300px;
+        position: static;
     }
     .innerContainer {
-        width: 400px;
+        width: 300px;
     }    
 }
